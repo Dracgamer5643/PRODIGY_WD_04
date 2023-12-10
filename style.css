@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Ubuntu&display=swap');
+
+
+*{
+    /*transition: 3s ease-in-out; */
+    font-family: 'Poppins', sans-serif;
+}
+
+
+body {
+    margin: 0;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    background-color: #333;
+    z-index: 1000;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.navbar li {
+    font-size: 1.4rem;
+    color: white;
+    margin-left: 20px;
+}
+
+.elements{
+    display: flex;
+    margin-left: 350px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 10px;
+    border-radius: 20px;
+}
+
+.navbar a:hover{
+    background-color: white;
+    color: #333;
+}
+
+section {
+    height: 100vh;
+    scroll-margin-top: 110px;
+}
+
+.container-intro{
+    margin-top: 55px;
+}
+
+.heading{
+    font-size: 2.7rem;
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 20px;
+    margin-bottom: 0px;
+}
+
+.job{
+    color: gold;
+    background-color: #333;
+    padding: 2px 10px;
+    border-radius: 5px;
+}
+
+.name{
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.para{
+    width: 40%;
+    text-align: justify;
+    margin-left: 20px;
+}
+
+.btn{
+    background-color: orchid;
+    border: 0;
+    padding: 5px 20px;
+    font-size: larger;
+    border-radius: 5px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: black;
+    color: white;
+}
+
+.btn-container{
+    margin-left: 15px;
+}
+
+.img{
+    width: 40%;
+    float: right;
+    margin-top: 10px;
+    margin-right: 50px;
+    height: 480px;
+}
+
+.head{
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.skill-con{
+    margin-top: 25px;
+    display: inline-flex;
+    width: 100%;
+}
+
+.skill{
+    width: 30%;
+    text-align: center;
+}
+
+.logo{
+    width: 20%;
+}
+
+.about-img{
+    margin-left: 80px;
+}
+
+.para2{
+    width: 95%;
+    text-align: justify;
+}
+
+.para-con{
+    position: absolute;
+    margin-right: 80px;
+    top: 1323px;
+    left: 322px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    font-size: 1rem;
+    background-color: darkturquoise;
+    padding-left: 30px;
+}
+
+.resume{
+    margin-left: 460px;
+}
+
+.works-img{
+    margin-left: 30px;
+    margin-top: 55px;
+}
+
+.contact-con h3{
+    text-align: center;
+}
+
+.info-con{
+    background-color: lightgreen;
+    width: 20%;
+    padding: 54px 30px;
+    float: left;
+    margin-top: 30px;
+    margin-left: 340px;
+}
+
+.main-contact-con{
+    width: 15%;
+    padding: 20px 30px;
+    margin-left: 650px;
+    margin-top: 30px;
+    background-color: gold;
+}
+
+footer{
+    background-color: #333;
+    color: white;
+}
+
+footer h3{
+    padding: 5px;
+    font-size: small;
+    margin-bottom: 0px;
+}
